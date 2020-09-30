@@ -70,7 +70,7 @@ int main()
 	//std::cout<<"t ="<<t<<std::endl;
 	std::cout<<"The value of H_"<<N-1<<"("<<t<<")="<<hermite(t)<<std::endl;
 	double time(0.0); // for recording the time
-	double grid(13/1000); // it is the delta_x
+	double grid(13.0/1000); // it is the delta_x
 	double spe(0.0); // records the speed of the car.
 	for(int alp=0; alp<1000;alp++)
 	{
