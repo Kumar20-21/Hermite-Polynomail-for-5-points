@@ -82,7 +82,7 @@ int main()
 		}
 	}
 	double temp(0.0);// temperary variable for recording speed in order to save computation time.
-	for(int al=int(time);al<N;al++)
+	for(int al=int(time);al<1000;al++)
 	{
 		temp = speed(grid*al);
 		if(temp>spe)
