@@ -1,6 +1,6 @@
-# Hermite-Polynomail-for-5-points
-Hermite Polynomial of degree 4 and Max speed
-The program takes 5 point grid and gives the following output:
-1) The value of f(x) at the any point of Interval of interpolation.
-2) The minimum value of x in the interpolating interval at which the value of f(x)=80.667
-3) The value of x at which f(x) has a maxima and the maximum value of f(x).
+# Lagrange interpolation
+The program takes the following as the argument(in order):
+1) The point of evaluation t
+2) The number of node points n
+3) The array of node points x
+4) The array of function values f corresponding to the node points.

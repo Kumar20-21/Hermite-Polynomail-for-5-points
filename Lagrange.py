@@ -1,4 +1,4 @@
-def lagrange(t, n, x, f):
+def lagrange(t, n, x, f):  # t is the point of evaluation, n is the number of nodes, x is an array of node ponts and f is the array of function values corresonding to node points.
     f_x = 0.0
     for ii in range(n):
         prod = 1.0
